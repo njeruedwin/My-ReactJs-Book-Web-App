@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap');
+
+body {
+  background: #adc1ca;
+}
+
+.left_paper_container  {
+  position: absolute;
+  left: 35.5%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 330px;
+  background: #f2f2f2;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 20px 8px #d0d0d0;
+
+}
+
+.left_paper_content {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  text-align: justify;
+  color: black;
+  padding: 40px;
+  font-family: 'Merriweather', serif;
+}
+
+.right_paper_container  {
+  position: absolute;
+  right: 16%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 330px;
+  background: #f2f2f2;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 8px 0px 20px 8px #d0d0d0;
+}
+
+.right_paper_content {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  text-align: justify;
+  color: black;
+  padding: 40px;
+  font-family: 'Merriweather', serif;
+}
+
+/*css for the previous and next button */
+button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 16px;
+  font-size: 15px;
+  border-style: none;
+}
+button:hover {
+  color: blue;
+}
+
+.next_button {
+margin-top:100%;
+margin-left:70%;
+}
+
+.previous_button {
+  margin-top:100%;
+  margin-right:70%;
+  }
+
+.previous {
+  color: black;
+}
+.next {
+  color: black;
+}
+
+/*css for the page number*/
+.page_number{
+  color:rgb(105, 104, 104,0.5);
+  margin-top:10px;
+  margin-left: 150px;
+}
+
+
+.identity{
+  color:rgb(105, 104, 104,0.5);
+}
